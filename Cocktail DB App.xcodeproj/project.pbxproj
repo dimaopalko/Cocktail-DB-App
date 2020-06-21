@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		5F4D8B7D249C85A8003012E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D8B7C249C85A8003012E8 /* AppDelegate.swift */; };
 		5F4D8B7F249C85A8003012E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D8B7E249C85A8003012E8 /* SceneDelegate.swift */; };
-		5F4D8B81249C85A8003012E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D8B80249C85A8003012E8 /* ViewController.swift */; };
 		5F4D8B84249C85A8003012E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4D8B82249C85A8003012E8 /* Main.storyboard */; };
 		5F4D8B86249C85AD003012E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4D8B85249C85AD003012E8 /* Assets.xcassets */; };
 		5F4D8B89249C85AD003012E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4D8B87249C85AD003012E8 /* LaunchScreen.storyboard */; };
+		5F6A3DBC249DE0BC0089F3F2 /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A3DBB249DE0BC0089F3F2 /* DrinksViewController.swift */; };
+		5F6A3DBE249E01610089F3F2 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A3DBD249E01610089F3F2 /* Drinks.swift */; };
+		5F6A3DC0249E01B50089F3F2 /* ListOfDrinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A3DBF249E01B50089F3F2 /* ListOfDrinks.swift */; };
+		5F6A3DC2249E024C0089F3F2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A3DC1249E024C0089F3F2 /* NetworkManager.swift */; };
+		5F6A3DC4249E2C070089F3F2 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A3DC3249E2C070089F3F2 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F4D8B79249C85A8003012E8 /* Cocktail DB App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocktail DB App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4D8B7C249C85A8003012E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F4D8B7E249C85A8003012E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F4D8B80249C85A8003012E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F4D8B83249C85A8003012E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F4D8B85249C85AD003012E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F4D8B88249C85AD003012E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F4D8B8A249C85AD003012E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6A3DBB249DE0BC0089F3F2 /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
+		5F6A3DBD249E01610089F3F2 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		5F6A3DBF249E01B50089F3F2 /* ListOfDrinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfDrinks.swift; sourceTree = "<group>"; };
+		5F6A3DC1249E024C0089F3F2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5F6A3DC3249E2C070089F3F2 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				5F4D8B7C249C85A8003012E8 /* AppDelegate.swift */,
+				5F6A3DBB249DE0BC0089F3F2 /* DrinksViewController.swift */,
+				5F6A3DC3249E2C070089F3F2 /* Helpers.swift */,
 				5F4D8B7E249C85A8003012E8 /* SceneDelegate.swift */,
-				5F4D8B80249C85A8003012E8 /* ViewController.swift */,
 				5F4D8B82249C85A8003012E8 /* Main.storyboard */,
+				5F6A3DBD249E01610089F3F2 /* Drinks.swift */,
+				5F6A3DBF249E01B50089F3F2 /* ListOfDrinks.swift */,
+				5F6A3DC1249E024C0089F3F2 /* NetworkManager.swift */,
 				5F4D8B85249C85AD003012E8 /* Assets.xcassets */,
 				5F4D8B87249C85AD003012E8 /* LaunchScreen.storyboard */,
 				5F4D8B8A249C85AD003012E8 /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4D8B81249C85A8003012E8 /* ViewController.swift in Sources */,
+				5F6A3DBC249DE0BC0089F3F2 /* DrinksViewController.swift in Sources */,
+				5F6A3DC4249E2C070089F3F2 /* Helpers.swift in Sources */,
 				5F4D8B7D249C85A8003012E8 /* AppDelegate.swift in Sources */,
+				5F6A3DC0249E01B50089F3F2 /* ListOfDrinks.swift in Sources */,
+				5F6A3DBE249E01610089F3F2 /* Drinks.swift in Sources */,
+				5F6A3DC2249E024C0089F3F2 /* NetworkManager.swift in Sources */,
 				5F4D8B7F249C85A8003012E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dima.opalko.Cocktail-DB-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dima.opalko.Cocktail-DB-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
